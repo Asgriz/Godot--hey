@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://4ba01mscmbtd"]
+
+[ext_resource type="Script" path="res://BG3lvl.gd" id="1_ual4x"]
+[ext_resource type="Texture2D" uid="uid://cgyklrsd7hh" path="res://3worl.jpeg" id="2_7afe2"]
+
+[node name="BackgroundLEVEL3" type="Node2D"]
+
+[node name="BG3lvl" type="ParallaxBackground" parent="."]
+script = ExtResource("1_ual4x")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="BG3lvl"]
+
+[node name="3Worl" type="Sprite2D" parent="BG3lvl/ParallaxLayer"]
+position = Vector2(396, 220)
+texture = ExtResource("2_7afe2")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://by7fs4nob6g3c"
+path="res://.godot/imported/Castle Theme - New Super Mario Bros DS Music Extended.mp3-0a7e5c39241e07555a784f42a99612d7.mp3str"
+
+[deps]
+
+source_file="res://Fort of Illusion Files/Layers/Castle Theme - New Super Mario Bros DS Music Extended.mp3"
+dest_files=["res://.godot/imported/Castle Theme - New Super Mario Bros DS Music Extended.mp3-0a7e5c39241e07555a784f42a99612d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

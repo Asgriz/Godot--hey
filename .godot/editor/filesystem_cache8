@@ -1,0 +1,265 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1704794699
+3worl.jpeg::CompressedTexture2D::4536459541397261::1704712140::1704712140::1::::<><>::
+Area2D.gd::GDScript::-1::1704712140::0::1::::<>Area2D<>::
+background_level_3.tscn::PackedScene::2037586873070361805::1704712140::0::1::::<><>::res://BG3lvl.gd<>uid://cgyklrsd7hh::::res://3worl.jpeg
+BG2.gd::GDScript::-1::1704712140::0::1::::<>ParallaxBackground<>::
+BG2.tscn::PackedScene::6519306134049472159::1704712140::0::1::::<><>::res://BG2.gd<>uid://ct618kno1f62w::::res://Fort of Illusion Files/Layers/back.png<>uid://bkvycg6xqh1pu::::res://Fort of Illusion Files/Layers/mountains.png
+BG3lvl.gd::GDScript::-1::1704712140::0::1::::<>ParallaxBackground<>::
+BG.gd::GDScript::-1::1704712140::0::1::::<>ParallaxBackground<>::
+BG.tscn::PackedScene::4414183918256101401::1704712140::0::1::::<><>::res://BG.gd<>uid://cydsa5j4lwgcn::::res://sunnyland winter forest files/ENVIRONMENT/sky.png<>uid://by35b2e8meroq::::res://sunnyland winter forest files/ENVIRONMENT/mountains.png<>uid://da2lwd4gql0v6::::res://sunnyland winter forest files/ENVIRONMENT/props-sliced/house.png
+BGlvl3.gd::GDScript::-1::1704712140::0::1::::<>ParallaxBackground<>::
+BGlvl3.tscn::PackedScene::6858922766326976901::1704712140::0::1::::<><>::res://BGlvl3.gd<>uid://df7mqglli6nom::::res://Fort of Illusion Files/Layers/world2interior.jpeg
+Button.gd::GDScript::-1::1704712140::0::1::::<>RefCounted<>::
+Castle Theme - New Super Mario Bros DS Music Extended.mp3::AudioStreamMP3::7692397568978391233::1704712140::1704712140::1::::<><>::
+completelvl2.gd::GDScript::-1::1704712140::0::1::::<>Area2D<>::
+completelvl.gd::GDScript::-1::1704712140::0::1::::<>Area2D<>::
+deathfall2.gd::GDScript::-1::1704712140::0::1::::<>Area2D<>::
+flame.gd::GDScript::-1::1704712140::0::1::::<>Area2D<>::
+HP.gd::GDScript::-1::1704712140::0::1::::<>Label<>::
+hpbar.gd::GDScript::-1::1704712140::0::1::::<>ProgressBar<>::
+icon.svg::CompressedTexture2D::7627695822598769339::1704712140::1704712140::1::::<><>::
+Luigis Mansion - Mario Kart DS Music Extended.mp3::AudioStreamMP3::5625057818131846215::1704712140::1704712140::1::::<><>::
+lvl2main.gd::GDScript::-1::1704712140::0::1::::<>Node2D<>::
+lvl3main.gd::GDScript::-1::1704712140::0::1::::<>Node2D<>::
+lvl3main.tscn::PackedScene::2508449995330625709::1704712140::0::1::::<><>::res://lvl3main.gd<>uid://c4yrpq8epv7qn::::res://BGlvl3.tscn<>uid://dhuiwtxklkv02::::res://Castle Theme - New Super Mario Bros DS Music Extended.mp3
+lvl_2_main.tscn::PackedScene::1511622571617305179::1704712140::0::1::::<><>::res://lvl2main.gd<>uid://cy5aawuhav5a6::::res://BG2.tscn<>uid://bf5n77t3llrov::::res://N64 Banshee Boardwalk - Mario Kart DS Music Extended.mp3
+main.gd::GDScript::-1::1704794699::0::1::::<>Node2D<>::
+main.tscn::PackedScene::929981403835646692::1704794699::0::1::::<><>::res://main.gd<>uid://b35i71vo807yr::::res://BG.tscn<>uid://cdauud08iohg8::::res://sunnyland winter forest files/ENVIRONMENT/Peach Gardens - Mario Kart DS Music Extended.mp3<>uid://dmn8gh6h4q7ig::::res://sunnyland winter forest files/SPRITES/misc/fireball/fireball-2.png<>uid://b3p3i8estm0j::::res://sunnyland winter forest files/SPRITES/player/idle/idle-3.png
+Mushroom Waltz - New Super Mario Bros..mp3::AudioStreamMP3::7786489785910382670::1704712140::1704712140::1::::<><>::
+N64 Banshee Boardwalk - Mario Kart DS Music Extended.mp3::AudioStreamMP3::2800144412201809533::1704712140::1704712140::1::::<><>::
+Nitrome music_ Jack Frost (game_1) [music].wav::AudioStreamWAV::1587803362081820415::1704712140::1704712140::1::::<><>::
+slime.gd::GDScript::-1::1704712140::0::1::::<>CharacterBody2D<>::
+slime.tscn::PackedScene::132874269217335890::1704712140::0::1::::<><>::res://slime.gd<>uid://77fens5flxjc::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-1.png<>uid://b113f2cokmsms::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-2.png<>uid://ba7ddkkahv0wq::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-3.png<>uid://cbikmfjsyd8dm::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-4.png<>uid://b3w4fs87mk5eu::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-5.png<>uid://bwhp8m808apd6::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-6.png<>uid://chw85gp6nxify::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-7.png<>uid://cb4d6vbew0cdp::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle1.png<>uid://bqkpq77buwme7::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle2.png<>uid://cfqoopvmf6len::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle3.png<>uid://4jiaeg5w1jel::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle4.png<>uid://bbtu8g35p3030::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle5.png<>uid://csvb08yt6cyqf::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle6.png<>uid://bn3wvyc0w8wgx::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle7.png<>uid://s0jloywd1ggx::::res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle8.png<>uid://8bo6a8bfidu6::::res://Enemies Pack FIles/Sprites/Slimer/slimer2.png<>uid://co078ofu38vhn::::res://Enemies Pack FIles/Sprites/Slimer/slimer3.png<>uid://3hptj6u81fr2::::res://Enemies Pack FIles/Sprites/Slimer/slimer4.png<>uid://b5nkg12k4j0f3::::res://Enemies Pack FIles/Sprites/Slimer/slimer5.png<>uid://na50p7ldklug::::res://Enemies Pack FIles/Sprites/Slimer/slimer6.png<>uid://c18pg1i7k3cis::::res://Enemies Pack FIles/Sprites/Slimer/slimer7.png
+world.gd::GDScript::-1::1704712140::0::1::::<>Node2D<>::
+world.tscn::PackedScene::8527890474110442887::1704794699::0::1::::<><>::res://world.gd<>res://BG.gd<>uid://dxsssudyj8h38::::res://sunnyland winter forest files/ENVIRONMENT/tileset.png<>uid://c2wu6pjey7fnl::::res://Player/Player.tscn<>uid://cydsa5j4lwgcn::::res://sunnyland winter forest files/ENVIRONMENT/sky.png<>uid://blf68o1065p42::::res://sunnyland winter forest files/ENVIRONMENT/props.png<>uid://8bee1i0g81nj::::res://yeti.tscn<>res://Area2D.gd<>uid://cwmb0crdqnn34::::res://sunnyland winter forest files/ENVIRONMENT/Delfino Square - Mario Kart DS Music Extended.mp3<>res://completelvl.gd
+world_2.gd::GDScript::-1::1704712140::0::1::::<>Node2D<>::
+world_2.tscn::PackedScene::3585608404539456661::1704712140::0::1::::<><>::res://world_2.gd<>uid://2p70efvet106::::res://Fort of Illusion Files/Layers/tileset.png<>res://BG2.gd<>uid://ckdm2rq607h8d::::res://Fort of Illusion Files/Layers/all-props.png<>uid://ct618kno1f62w::::res://Fort of Illusion Files/Layers/back.png<>uid://c2wu6pjey7fnl::::res://Player/Player.tscn<>uid://bdxeibvgbrjho::::res://Fort of Illusion Files/Layers/front.png<>res://deathfall2.gd<>uid://8bee1i0g81nj::::res://yeti.tscn<>uid://b5mojj378bhy::::res://slime.tscn<>uid://cme2461s314d4::::res://Luigis Mansion - Mario Kart DS Music Extended.mp3<>res://completelvl2.gd
+world_3.tscn::PackedScene::5295999359577045196::1704794699::0::1::::<><>::uid://2p70efvet106::::res://Fort of Illusion Files/Layers/tileset.png<>uid://cv152wl6yn13y::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-1.png<>res://BG3lvl.gd<>uid://br1uka5m66rnp::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-2.png<>uid://c2ru43b2eo7s8::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-3.png<>uid://cgyklrsd7hh::::res://3worl.jpeg<>uid://b247jwr8u4axo::::res://sunnyland winter forest files/SPRITES/player/hurt/hurt-1.png<>uid://cws6722642xys::::res://sunnyland winter forest files/SPRITES/player/hurt/hurt-2.png<>uid://dnt271k0qmxej::::res://sunnyland winter forest files/SPRITES/player/idle/idle-1.png<>uid://cjh06jggwgrxl::::res://sunnyland winter forest files/SPRITES/player/idle/idle-2.png<>uid://b3p3i8estm0j::::res://sunnyland winter forest files/SPRITES/player/idle/idle-3.png<>uid://lmqv06b74vjh::::res://sunnyland winter forest files/SPRITES/player/idle/idle-4.png<>uid://xr3cagt60qti::::res://sunnyland winter forest files/SPRITES/player/jump/jump-1.png<>uid://gfgmmj67fh6k::::res://sunnyland winter forest files/SPRITES/player/jump/jump-2.png<>uid://b6cv1fjge401r::::res://sunnyland winter forest files/SPRITES/player/jump/jump-3.png<>uid://ba6e124njhwls::::res://sunnyland winter forest files/SPRITES/player/jump/jump-4.png<>uid://dwv8b15oxiib4::::res://sunnyland winter forest files/SPRITES/player/jump/jump-5.png<>uid://buggojlk8ixsp::::res://sunnyland winter forest files/SPRITES/player/run/run-1.png<>uid://b248hk1aan0sn::::res://sunnyland winter forest files/SPRITES/player/run/run-2.png<>uid://cjb5ykf8dcvin::::res://sunnyland winter forest files/SPRITES/player/run/run-3.png<>uid://uuubqxvk75yn::::res://sunnyland winter forest files/SPRITES/player/run/run-4.png<>uid://clqvyxhp0rj34::::res://sunnyland winter forest files/SPRITES/player/run/run-5.png<>uid://dbjt0n4blywq::::res://sunnyland winter forest files/SPRITES/player/run/run-6.png<>uid://4xdtxhp1jord::::res://sunnyland winter forest files/SPRITES/player/run/run-7.png<>uid://ci7j8vn60mdb::::res://sunnyland winter forest files/SPRITES/player/run/run-8.png
+yeti.gd::GDScript::-1::1704712140::0::1::::<>CharacterBody2D<>::
+yeti.tscn::PackedScene::2318547608066584115::1704712140::0::1::::<><>::res://yeti.gd<>uid://cyeax51ho8fnq::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-1.png<>uid://77fens5flxjc::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-1.png<>uid://c4fhkkcj8kpk8::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-2.png<>uid://b113f2cokmsms::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-2.png<>uid://ba7ddkkahv0wq::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-3.png<>uid://c3sem5qybxpr3::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-3.png<>uid://cbikmfjsyd8dm::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-4.png<>uid://b3w4fs87mk5eu::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-5.png<>uid://bwhp8m808apd6::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-6.png<>uid://chw85gp6nxify::::res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-7.png<>uid://bse5bwjy6d8hj::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-4.png<>uid://bub14vgibuv43::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-5.png<>uid://cikp62ph1ipun::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-6.png<>uid://dfywg3w7le34v::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-7.png<>uid://buyxekummt0b2::::res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-8.png
+::res://Enemies Pack FIles/::1704715782
+readme-license.txt::TextFile::-1::1704712020::0::1::::<><>::
+::res://Enemies Pack FIles/Aseprite/::1704715782
+::res://Enemies Pack FIles/previews/::1704715782
+::res://Enemies Pack FIles/Sprites/::1704715782
+vulture1.png::CompressedTexture2D::1361022828515887832::1704712020::1704712080::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Bettle/::1704715782
+bettle1.png::CompressedTexture2D::8389706615692483164::1704712020::1704712020::1::::<><>::
+bettle2.png::CompressedTexture2D::5372408880369352523::1704712020::1704712020::1::::<><>::
+bettle3.png::CompressedTexture2D::1692968434660051976::1704712020::1704712020::1::::<><>::
+bettle4.png::CompressedTexture2D::3899128322170519750::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Dino/::1704715782
+dino1.png::CompressedTexture2D::2087661662345891223::1704712020::1704712020::1::::<><>::
+dino2.png::CompressedTexture2D::4700290889028720956::1704712020::1704712020::1::::<><>::
+dino3.png::CompressedTexture2D::1155832740835491077::1704712020::1704712020::1::::<><>::
+dino4.png::CompressedTexture2D::9217929067941209000::1704712020::1704712020::1::::<><>::
+dino5.png::CompressedTexture2D::5623943812479587246::1704712020::1704712020::1::::<><>::
+dino6.png::CompressedTexture2D::5153776621024792197::1704712020::1704712020::1::::<><>::
+dino7.png::CompressedTexture2D::4855837814613765529::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Dino-Idle/::1704715782
+dino-idle1.png::CompressedTexture2D::6537110087296827396::1704712020::1704712020::1::::<><>::
+dino-idle2.png::CompressedTexture2D::5290724313104180369::1704712020::1704712020::1::::<><>::
+dino-idle3.png::CompressedTexture2D::1143943517711535845::1704712020::1704712020::1::::<><>::
+dino-idle4.png::CompressedTexture2D::7766196993057828170::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Dog/::1704715782
+dog1.png::CompressedTexture2D::106048089941244014::1704712020::1704712020::1::::<><>::
+dog2.png::CompressedTexture2D::1683331112884519800::1704712020::1704712020::1::::<><>::
+dog3.png::CompressedTexture2D::6621921803125629537::1704712020::1704712020::1::::<><>::
+dog4.png::CompressedTexture2D::4677121500712731712::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Dog-idle/::1704715782
+dog-idlet1.png::CompressedTexture2D::8626609315063288831::1704712020::1704712020::1::::<><>::
+dog-idlet2.png::CompressedTexture2D::3338216231324566544::1704712020::1704712020::1::::<><>::
+dog-idlet3.png::CompressedTexture2D::6875640123801813160::1704712020::1704712020::1::::<><>::
+dog-idlet4.png::CompressedTexture2D::1662714594434765820::1704712020::1704712020::1::::<><>::
+dog-idlet5.png::CompressedTexture2D::1269536823255873492::1704712020::1704712020::1::::<><>::
+dog-idlet6.png::CompressedTexture2D::3919462765718104416::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Slimer/::1704715782
+slimer1.png::CompressedTexture2D::7623301114527127476::1704712020::1704712020::1::::<><>::
+slimer2.png::CompressedTexture2D::2319201666349892163::1704712020::1704712020::1::::<><>::
+slimer3.png::CompressedTexture2D::5809097241135909847::1704712020::1704712020::1::::<><>::
+slimer4.png::CompressedTexture2D::1980683472671939217::1704712020::1704712020::1::::<><>::
+slimer5.png::CompressedTexture2D::4519542196138257474::1704712020::1704712020::1::::<><>::
+slimer6.png::CompressedTexture2D::914321959713235898::1704712020::1704712020::1::::<><>::
+slimer7.png::CompressedTexture2D::6666798616947882154::1704712020::1704712020::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Slimer-Idle/::1704715782
+slimer-idle1.png::CompressedTexture2D::4903135781228602725::1704712020::1704712020::1::::<><>::
+slimer-idle2.png::CompressedTexture2D::3531027017290179048::1704712020::1704712020::1::::<><>::
+slimer-idle3.png::CompressedTexture2D::5157691489499002441::1704712020::1704712020::1::::<><>::
+slimer-idle4.png::CompressedTexture2D::2054541821987330471::1704712020::1704712020::1::::<><>::
+slimer-idle5.png::CompressedTexture2D::2497106335491322693::1704712080::1704712080::1::::<><>::
+slimer-idle6.png::CompressedTexture2D::6079699618797096293::1704712080::1704712080::1::::<><>::
+slimer-idle7.png::CompressedTexture2D::3358052768430680771::1704712080::1704712080::1::::<><>::
+slimer-idle8.png::CompressedTexture2D::1315575499410754747::1704712080::1704712080::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Vulture/::1704715782
+vulture2.png::CompressedTexture2D::2283737312710862756::1704712080::1704712080::1::::<><>::
+vulture3.png::CompressedTexture2D::3948525728763070383::1704712080::1704712080::1::::<><>::
+vulture4.png::CompressedTexture2D::1023310743822220006::1704712080::1704712080::1::::<><>::
+::res://Enemies Pack FIles/Sprites/Vulture-Idle/::1704715782
+vulture-idle1.png::CompressedTexture2D::5543909685527505328::1704712080::1704712080::1::::<><>::
+vulture-idle2.png::CompressedTexture2D::1388125832647399720::1704712080::1704712080::1::::<><>::
+vulture-idle3.png::CompressedTexture2D::6269768605012665474::1704712080::1704712080::1::::<><>::
+vulture-idle4.png::CompressedTexture2D::5946912846412435697::1704712080::1704712080::1::::<><>::
+::res://Enemies Pack FIles/spritesheets/::1704715782
+bettle.png::CompressedTexture2D::8997590827457740015::1704712080::1704712080::1::::<><>::
+dino-idle.png::CompressedTexture2D::1508238009543205506::1704712080::1704712080::1::::<><>::
+dino.png::CompressedTexture2D::2927302355380045282::1704712080::1704712080::1::::<><>::
+dog-idle.png::CompressedTexture2D::8734235961496668942::1704712080::1704712080::1::::<><>::
+dog.png::CompressedTexture2D::6757300033446639308::1704712080::1704712080::1::::<><>::
+slimer-idle.png::CompressedTexture2D::6377379420009406314::1704712080::1704712080::1::::<><>::
+slimer.png::CompressedTexture2D::7485415437938564070::1704712080::1704712080::1::::<><>::
+vulture-idle.png::CompressedTexture2D::8751103293321462760::1704712080::1704712080::1::::<><>::
+vulture.png::CompressedTexture2D::7224526787569617163::1704712080::1704712080::1::::<><>::
+::res://Fort of Illusion Files/::1704715782
+public-license.txt::TextFile::-1::1704712080::0::1::::<><>::
+Screenshot 2023-12-11 at 13.50.04.png::CompressedTexture2D::8086736387082659975::1704712080::1704712080::1::::<><>::
+::res://Fort of Illusion Files/Layers/::1704715782
+all-props.png::CompressedTexture2D::5481700676434331633::1704712080::1704712080::1::::<><>::
+back.png::CompressedTexture2D::6172063225882492912::1704712080::1704712080::1::::<><>::
+Castle Theme - New Super Mario Bros DS Music Extended.mp3::AudioStreamMP3::4137350292288181722::1704712080::1704712080::1::::<><>::
+front.png::CompressedTexture2D::2644725142511748664::1704712080::1704712080::1::::<><>::
+mountains.png::CompressedTexture2D::3133122196418624722::1704712080::1704712080::1::::<><>::
+tileset.png::CompressedTexture2D::1928052251931609873::1704712080::1704712080::1::::<><>::
+world2interior.jpeg::CompressedTexture2D::7577023866659717556::1704712080::1704712080::1::::<><>::
+world2interior.png::::-1::0::0::0::::<><>::
+::res://Fort of Illusion Files/Layers/Props/::1704715782
+banner.png::CompressedTexture2D::7204239218611609308::1704712080::1704712080::1::::<><>::
+closed-door.png::CompressedTexture2D::1791324914893359221::1704712080::1704712080::1::::<><>::
+door.png::CompressedTexture2D::4946364472627334221::1704712080::1704712080::1::::<><>::
+flag.png::CompressedTexture2D::3755392825860255599::1704712080::1704712080::1::::<><>::
+window.png::CompressedTexture2D::1277712460565873491::1704712080::1704712080::1::::<><>::
+::res://Fort of Illusion Files/Previews/::1704715782
+Fort-of-Illusion.png::CompressedTexture2D::4079202769601935337::1704712080::1704712080::1::::<><>::
+Fort-of-Illusionx3.png::CompressedTexture2D::8845384077807265605::1704712080::1704712080::1::::<><>::
+::res://Player/::1704794699
+flame.tscn::PackedScene::7512850447494239911::1704715864::0::1::::<><>::res://flame.gd<>uid://c1qy5ue6xtk::::res://sunnyland winter forest files/SPRITES/misc/fireball/fireball-1.png
+Player.gd::GDScript::-1::1704794652::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::6714626957637342233::1704794699::0::1::::<><>::res://Player/Player.gd<>uid://cv152wl6yn13y::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-1.png<>uid://br1uka5m66rnp::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-2.png<>uid://c2ru43b2eo7s8::::res://sunnyland winter forest files/SPRITES/player/crouch/crouch-3.png<>uid://b247jwr8u4axo::::res://sunnyland winter forest files/SPRITES/player/hurt/hurt-1.png<>uid://cws6722642xys::::res://sunnyland winter forest files/SPRITES/player/hurt/hurt-2.png<>uid://dnt271k0qmxej::::res://sunnyland winter forest files/SPRITES/player/idle/idle-1.png<>uid://cjh06jggwgrxl::::res://sunnyland winter forest files/SPRITES/player/idle/idle-2.png<>uid://b3p3i8estm0j::::res://sunnyland winter forest files/SPRITES/player/idle/idle-3.png<>uid://lmqv06b74vjh::::res://sunnyland winter forest files/SPRITES/player/idle/idle-4.png<>uid://xr3cagt60qti::::res://sunnyland winter forest files/SPRITES/player/jump/jump-1.png<>uid://gfgmmj67fh6k::::res://sunnyland winter forest files/SPRITES/player/jump/jump-2.png<>uid://b6cv1fjge401r::::res://sunnyland winter forest files/SPRITES/player/jump/jump-3.png<>uid://ba6e124njhwls::::res://sunnyland winter forest files/SPRITES/player/jump/jump-4.png<>uid://dwv8b15oxiib4::::res://sunnyland winter forest files/SPRITES/player/jump/jump-5.png<>uid://buggojlk8ixsp::::res://sunnyland winter forest files/SPRITES/player/run/run-1.png<>uid://b248hk1aan0sn::::res://sunnyland winter forest files/SPRITES/player/run/run-2.png<>uid://cjb5ykf8dcvin::::res://sunnyland winter forest files/SPRITES/player/run/run-3.png<>uid://uuubqxvk75yn::::res://sunnyland winter forest files/SPRITES/player/run/run-4.png<>uid://clqvyxhp0rj34::::res://sunnyland winter forest files/SPRITES/player/run/run-5.png<>uid://dbjt0n4blywq::::res://sunnyland winter forest files/SPRITES/player/run/run-6.png<>uid://4xdtxhp1jord::::res://sunnyland winter forest files/SPRITES/player/run/run-7.png<>uid://ci7j8vn60mdb::::res://sunnyland winter forest files/SPRITES/player/run/run-8.png
+::res://sunnyland winter forest files/::1704715782
+readme.txt::TextFile::-1::1704712080::0::1::::<><>::
+::res://sunnyland winter forest files/ENVIRONMENT/::1704715782
+Delfino Square - Mario Kart DS Music Extended.mp3::AudioStreamMP3::6341873953778610705::1704712080::1704712080::1::::<><>::
+mid-layer-a.png::CompressedTexture2D::9213198554524092192::1704712080::1704712080::1::::<><>::
+mid-layer-b.png::CompressedTexture2D::6807954971529182508::1704712080::1704712080::1::::<><>::
+mountains.png::CompressedTexture2D::4130580229521704752::1704712080::1704712080::1::::<><>::
+Peach Gardens - Mario Kart DS Music Extended.mp3::AudioStreamMP3::4984658151734505561::1704712080::1704712080::1::::<><>::
+props.png::CompressedTexture2D::3170761787126704433::1704712080::1704712080::1::::<><>::
+sky.png::CompressedTexture2D::6464661244767897769::1704712080::1704712080::1::::<><>::
+tileset.png::CompressedTexture2D::8811890360692407885::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/ENVIRONMENT/props-sliced/::1704715782
+house.png::CompressedTexture2D::7215707627489090341::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/PSD/::1704715782
+::res://sunnyland winter forest files/PSD/ENVIRONMENTS/::1704715782
+::res://sunnyland winter forest files/PSD/MISC/::1704715782
+::res://sunnyland winter forest files/PSD/SPRITES/::1704715782
+::res://sunnyland winter forest files/PSD/SPRITES/enemies/::1704715782
+::res://sunnyland winter forest files/PSD/SPRITES/misc/::1704715782
+::res://sunnyland winter forest files/PSD/SPRITES/player/::1704715782
+::res://sunnyland winter forest files/SPRITES/::1704715782
+::res://sunnyland winter forest files/SPRITES/enemies/::1704715782
+::res://sunnyland winter forest files/SPRITES/enemies/fox/::1704715782
+fox-1.png::CompressedTexture2D::7596093320757550765::1704712080::1704712080::1::::<><>::
+fox-3.png::CompressedTexture2D::5731839865919313401::1704712080::1704712080::1::::<><>::
+fox-4.png::CompressedTexture2D::4102002772434380030::1704712080::1704712080::1::::<><>::
+fox-5.png::CompressedTexture2D::4523887546072119021::1704712080::1704712080::1::::<><>::
+fox-6.png::CompressedTexture2D::5329600568818687701::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/enemies/owl/::1704715782
+owl-1.png::CompressedTexture2D::2542634810152020458::1704712080::1704712080::1::::<><>::
+owl-2.png::CompressedTexture2D::999662908643899457::1704712080::1704712080::1::::<><>::
+owl-3.png::CompressedTexture2D::1078923411470687389::1704712080::1704712080::1::::<><>::
+owl-4.png::CompressedTexture2D::7042088065180511217::1704712080::1704712080::1::::<><>::
+owl-5.png::CompressedTexture2D::5993221324243952092::1704712080::1704712080::1::::<><>::
+owl-6.png::CompressedTexture2D::8417575399908092504::1704712080::1704712080::1::::<><>::
+owl-7.png::CompressedTexture2D::2135860473764144270::1704712080::1704712080::1::::<><>::
+owl-8.png::CompressedTexture2D::8896741896337353546::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/enemies/yeti/::1704715782
+yeti-1.png::CompressedTexture2D::6465673815178510118::1704712080::1704712080::1::::<><>::
+yeti-2.png::CompressedTexture2D::6819083127324393265::1704712080::1704712080::1::::<><>::
+yeti-3.png::CompressedTexture2D::6775553687832192866::1704712080::1704712080::1::::<><>::
+yeti-4.png::CompressedTexture2D::3659901846319797699::1704712080::1704712080::1::::<><>::
+yeti-5.png::CompressedTexture2D::3793893476667789178::1704712080::1704712080::1::::<><>::
+yeti-6.png::CompressedTexture2D::5355963450189252977::1704712080::1704712080::1::::<><>::
+yeti-7.png::CompressedTexture2D::7561099330079516335::1704712080::1704712080::1::::<><>::
+yeti-8.png::CompressedTexture2D::3841146813252058233::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/misc/::1704715782
+::res://sunnyland winter forest files/SPRITES/misc/enemy-death/::1704715782
+enemy-death-1.png::CompressedTexture2D::2312414524666636024::1704712080::1704712080::1::::<><>::
+enemy-death-2.png::CompressedTexture2D::4266714866524497586::1704712080::1704712080::1::::<><>::
+enemy-death-3.png::CompressedTexture2D::2452668820874782968::1704712080::1704712080::1::::<><>::
+enemy-death-4.png::CompressedTexture2D::4860174109881292430::1704712080::1704712080::1::::<><>::
+enemy-death-5.png::CompressedTexture2D::4398895335776320612::1704712080::1704712080::1::::<><>::
+enemy-death-6.png::CompressedTexture2D::3945996256537340081::1704712080::1704712080::1::::<><>::
+enemy-death-7.png::CompressedTexture2D::5311637157759135114::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/misc/fireball/::1704715782
+fireball-1.png::CompressedTexture2D::5737277842361380::1704712080::1704712080::1::::<><>::
+fireball-2.png::CompressedTexture2D::8030379876973047302::1704712080::1704712080::1::::<><>::
+fireball-3.png::CompressedTexture2D::5764717700179895192::1704712080::1704712080::1::::<><>::
+fireball-4.png::CompressedTexture2D::7772536252611343992::1704712080::1704712080::1::::<><>::
+fireball-5.png::CompressedTexture2D::3571496673440770728::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/misc/fireball-hit/::1704715782
+fireball-hit-1.png::CompressedTexture2D::7711657065253725815::1704712080::1704712080::1::::<><>::
+fireball-hit-2.png::CompressedTexture2D::7056989559527386814::1704712080::1704712080::1::::<><>::
+fireball-hit-3.png::CompressedTexture2D::8979677685663545945::1704712080::1704712080::1::::<><>::
+fireball-hit-4.png::CompressedTexture2D::5175452839654600913::1704712080::1704712080::1::::<><>::
+fireball-hit-5.png::CompressedTexture2D::3739094090181133636::1704712080::1704712080::1::::<><>::
+fireball-hit-6.png::CompressedTexture2D::74727443781713146::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/::1704715782
+::res://sunnyland winter forest files/SPRITES/player/climb/::1704715782
+climb-1.png::CompressedTexture2D::1496220244880545248::1704712080::1704712080::1::::<><>::
+climb-2.png::CompressedTexture2D::19223429171810428::1704712080::1704712080::1::::<><>::
+climb-3.png::CompressedTexture2D::3738724273557374594::1704712080::1704712080::1::::<><>::
+climb-4.png::CompressedTexture2D::1000866560462506706::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/crouch/::1704715782
+crouch-1.png::CompressedTexture2D::6302351805556526400::1704712080::1704712080::1::::<><>::
+crouch-2.png::CompressedTexture2D::3634537091871606517::1704712080::1704712080::1::::<><>::
+crouch-3.png::CompressedTexture2D::6704302168741962069::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/crouch-shot/::1704715782
+crouch-shot-1.png::CompressedTexture2D::170170418235678866::1704712080::1704712080::1::::<><>::
+crouch-shot-2.png::CompressedTexture2D::184217738533023639::1704712080::1704712080::1::::<><>::
+crouch-shot-3.png::CompressedTexture2D::1562294220016444786::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/hurt/::1704715782
+hurt-1.png::CompressedTexture2D::4343346616003994404::1704712080::1704712080::1::::<><>::
+hurt-2.png::CompressedTexture2D::6356095560465221222::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/idle/::1704715782
+idle-1.png::CompressedTexture2D::8112638082123424365::1704712080::1704712080::1::::<><>::
+idle-2.png::CompressedTexture2D::5420565371118371373::1704712080::1704712080::1::::<><>::
+idle-3.png::CompressedTexture2D::128952649244444291::1704712080::1704712080::1::::<><>::
+idle-4.png::CompressedTexture2D::797860147685392853::1704712080::1704712080::1::::<><>::
+Pointer.png::CompressedTexture2D::6968354356977765518::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/jump/::1704715782
+jump-1.png::CompressedTexture2D::1651141483053559526::1704712080::1704712080::1::::<><>::
+jump-2.png::CompressedTexture2D::431841327716858764::1704712080::1704712080::1::::<><>::
+jump-3.png::CompressedTexture2D::4567725356268965521::1704712080::1704712080::1::::<><>::
+jump-4.png::CompressedTexture2D::2450707156214317704::1704712080::1704712080::1::::<><>::
+jump-5.png::CompressedTexture2D::8748775403124860751::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/run/::1704715782
+run-1.png::CompressedTexture2D::3802973616251169567::1704712080::1704712080::1::::<><>::
+run-2.png::CompressedTexture2D::4343403143505293245::1704712080::1704712080::1::::<><>::
+run-3.png::CompressedTexture2D::5408470241180269457::1704712080::1704712080::1::::<><>::
+run-4.png::CompressedTexture2D::1446281430363981749::1704712080::1704712080::1::::<><>::
+run-5.png::CompressedTexture2D::5579267826937631537::1704712080::1704712080::1::::<><>::
+run-6.png::CompressedTexture2D::213212626172883620::1704712080::1704712080::1::::<><>::
+run-7.png::CompressedTexture2D::2083174454476137221::1704712080::1704712080::1::::<><>::
+run-8.png::CompressedTexture2D::158853491566744879::1704712080::1704712080::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/shot/::1704715782
+shot-1.png::CompressedTexture2D::4211955941137416726::1704712080::1704712080::1::::<><>::
+shot-2.png::CompressedTexture2D::2037658753893268271::1704712080::1704712080::1::::<><>::
+shot-3.png::CompressedTexture2D::5826061244165731494::1704712080::1704712080::1::::<><>::
+shot-4.png::CompressedTexture2D::6265319744932722387::1704712140::1704712140::1::::<><>::
+::res://sunnyland winter forest files/SPRITES/player/walk/::1704715782
+walk-1.png::CompressedTexture2D::3643770632130892605::1704712140::1704712140::1::::<><>::
+walk-2.png::CompressedTexture2D::4908862488399365667::1704712140::1704712140::1::::<><>::
+walk-3.png::CompressedTexture2D::1106095842475061093::1704712140::1704712140::1::::<><>::
+walk-4.png::CompressedTexture2D::2322563610225053111::1704712140::1704712140::1::::<><>::
+walk-5.png::CompressedTexture2D::6659893331641328557::1704712140::1704712140::1::::<><>::
+walk-6.png::CompressedTexture2D::1301753610945973078::1704712140::1704712140::1::::<><>::
+walk-7.png::CompressedTexture2D::2953997150815957285::1704712140::1704712140::1::::<><>::
+walk-8.png::CompressedTexture2D::271902379838911091::1704712140::1704712140::1::::<><>::
+walk-9.png::CompressedTexture2D::8913881862774706621::1704712140::1704712140::1::::<><>::
+walk-10.png::CompressedTexture2D::7403753248883821829::1704712140::1704712140::1::::<><>::
+walk-11.png::CompressedTexture2D::8102628508458076310::1704712140::1704712140::1::::<><>::
+walk-12.png::CompressedTexture2D::1397515164725348987::1704712140::1704712140::1::::<><>::
+walk-13.png::CompressedTexture2D::1742818352033263899::1704712140::1704712140::1::::<><>::
+walk-14.png::CompressedTexture2D::4214532167127279438::1704712140::1704712140::1::::<><>::
+walk-15.png::CompressedTexture2D::4790649051251017778::1704712140::1704712140::1::::<><>::
+walk-16.png::CompressedTexture2D::8086763807161887560::1704712140::1704712140::1::::<><>::

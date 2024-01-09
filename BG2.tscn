@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://cy5aawuhav5a6"]
+
+[ext_resource type="Script" path="res://BG2.gd" id="1_ape5c"]
+[ext_resource type="Texture2D" uid="uid://ct618kno1f62w" path="res://Fort of Illusion Files/Layers/back.png" id="1_kq02y"]
+[ext_resource type="Texture2D" uid="uid://bkvycg6xqh1pu" path="res://Fort of Illusion Files/Layers/mountains.png" id="2_50vt1"]
+
+[node name="BG2" type="ParallaxBackground"]
+script = ExtResource("1_ape5c")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1150, 2.08165e-12)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576.25, 324.5)
+scale = Vector2(17.9922, 2.38603)
+texture = ExtResource("1_kq02y")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1250.5, 2.08165e-12)
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1136, 391.5)
+scale = Vector2(1, 1.75368)
+texture = ExtResource("2_50vt1")
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(128, 372.5)
+scale = Vector2(1, 2.02574)
+texture = ExtResource("2_50vt1")
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(385, 371)
+scale = Vector2(1, 2.02574)
+texture = ExtResource("2_50vt1")
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(635, 381)
+scale = Vector2(1, 1.95956)
+texture = ExtResource("2_50vt1")
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2/Middle3"]
+position = Vector2(253, 1.02063)
+scale = Vector2(1, 1)
+texture = ExtResource("2_50vt1")

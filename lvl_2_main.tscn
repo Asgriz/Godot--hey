@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=3 uid="uid://vsig5s6slrb4"]
+
+[ext_resource type="Script" path="res://lvl2main.gd" id="1_b3c5h"]
+[ext_resource type="PackedScene" uid="uid://cy5aawuhav5a6" path="res://BG2.tscn" id="2_72waa"]
+[ext_resource type="AudioStream" uid="uid://bf5n77t3llrov" path="res://N64 Banshee Boardwalk - Mario Kart DS Music Extended.mp3" id="3_4oipi"]
+
+[node name="lvl2main" type="Node2D"]
+script = ExtResource("1_b3c5h")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 368.0
+offset_top = 107.0
+offset_right = 712.0
+offset_bottom = 201.0
+tooltip_text = "Haunted mountain enemies ahead..
+"
+theme_override_colors/default_color = Color(0.670588, 0.109804, 0.490196, 1)
+theme_override_font_sizes/normal_font_size = 25
+text = "					Level 2 :
+			Cursed Mountains"
+
+[node name="Enterlvl2" type="Button" parent="."]
+offset_left = 340.0
+offset_top = 195.0
+offset_right = 778.0
+offset_bottom = 346.0
+text = "Enter Level 2"
+
+[node name="Returnlvl1" type="Button" parent="."]
+offset_left = 338.0
+offset_top = 357.0
+offset_right = 776.0
+offset_bottom = 489.0
+text = "Replay Level 1
+"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 422.0
+offset_top = 496.0
+offset_right = 686.0
+offset_bottom = 568.0
+text = "Quit
+
+"
+
+[node name="BG2" parent="." instance=ExtResource("2_72waa")]
+
+[node name="lvl2mainmusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_4oipi")
+autoplay = true
+
+[connection signal="pressed" from="Enterlvl2" to="." method="_on_enterlvl_2_pressed"]
+[connection signal="pressed" from="Returnlvl1" to="." method="_on_returnlvl_1_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

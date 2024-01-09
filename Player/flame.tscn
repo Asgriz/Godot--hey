@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://dfbjsw55sows2"]
+
+[ext_resource type="Script" path="res://flame.gd" id="1_nv2fj"]
+[ext_resource type="Texture2D" uid="uid://c1qy5ue6xtk" path="res://sunnyland winter forest files/SPRITES/misc/fireball/fireball-1.png" id="2_c3jrf"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q1anf"]
+radius = 11.0
+height = 24.0
+
+[node name="Flame" type="Area2D"]
+script = ExtResource("1_nv2fj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Fireball-1" type="Sprite2D" parent="."]
+texture = ExtResource("2_c3jrf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_q1anf")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+position = Vector2(0, -1.19209e-07)
+scale = Vector2(0.3, 1.2)
+
+[connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]

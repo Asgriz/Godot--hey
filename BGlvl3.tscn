@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4yrpq8epv7qn"]
+
+[ext_resource type="Script" path="res://BGlvl3.gd" id="1_n13o5"]
+[ext_resource type="Texture2D" uid="uid://df7mqglli6nom" path="res://Fort of Illusion Files/Layers/world2interior.jpeg" id="2_4ywjl"]
+
+[node name="BGlvl3" type="ParallaxBackground"]
+script = ExtResource("1_n13o5")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1500, 2.08165e-12)
+
+[node name="World3Interior" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(951, 288)
+scale = Vector2(1, 0.788235)
+texture = ExtResource("2_4ywjl")

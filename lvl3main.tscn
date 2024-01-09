@@ -1,0 +1,62 @@
+[gd_scene load_steps=4 format=3 uid="uid://bb0d2mreh755j"]
+
+[ext_resource type="Script" path="res://lvl3main.gd" id="1_mref8"]
+[ext_resource type="PackedScene" uid="uid://c4yrpq8epv7qn" path="res://BGlvl3.tscn" id="2_uytms"]
+[ext_resource type="AudioStream" uid="uid://dhuiwtxklkv02" path="res://Castle Theme - New Super Mario Bros DS Music Extended.mp3" id="3_pqbq0"]
+
+[node name="lvl3main" type="Node2D"]
+script = ExtResource("1_mref8")
+
+[node name="Enterlvl3" type="Button" parent="."]
+offset_left = 414.0
+offset_top = 188.0
+offset_right = 661.0
+offset_bottom = 274.0
+text = "Enter Level 3
+"
+
+[node name="Returntolvl2" type="Button" parent="."]
+offset_left = 427.0
+offset_top = 284.0
+offset_right = 650.0
+offset_bottom = 342.0
+text = "Replay Level 2
+"
+
+[node name="Returntolvl1" type="Button" parent="."]
+offset_left = 449.0
+offset_top = 343.0
+offset_right = 630.0
+offset_bottom = 395.0
+text = "Replay Level 1
+"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 471.0
+offset_top = 398.0
+offset_right = 606.0
+offset_bottom = 438.0
+tooltip_text = "ONCE YOU QUIT YOU GOTTA RESTART EVERYTHING"
+text = "Quit 
+"
+
+[node name="BGlvl3" parent="." instance=ExtResource("2_uytms")]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 419.0
+offset_top = 128.0
+offset_right = 639.0
+offset_bottom = 191.0
+tooltip_text = " A stronger foe awaits..."
+theme_override_colors/default_color = Color(0.780392, 0.588235, 0.305882, 1)
+text = "					Level: 3
+Inside The Cursed Mountain"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_pqbq0")
+autoplay = true
+
+[connection signal="pressed" from="Enterlvl3" to="." method="_on_enterlvl_3_pressed"]
+[connection signal="pressed" from="Returntolvl2" to="." method="_on_returntolvl_2_pressed"]
+[connection signal="pressed" from="Returntolvl1" to="." method="_on_returntolvl_1_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

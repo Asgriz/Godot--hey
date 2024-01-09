@@ -1,0 +1,55 @@
+[gd_scene load_steps=5 format=3 uid="uid://b35i71vo807yr"]
+
+[ext_resource type="Script" path="res://BG.gd" id="1_8hfk2"]
+[ext_resource type="Texture2D" uid="uid://cydsa5j4lwgcn" path="res://sunnyland winter forest files/ENVIRONMENT/sky.png" id="1_783mn"]
+[ext_resource type="Texture2D" uid="uid://by35b2e8meroq" path="res://sunnyland winter forest files/ENVIRONMENT/mountains.png" id="2_n3ilh"]
+[ext_resource type="Texture2D" uid="uid://da2lwd4gql0v6" path="res://sunnyland winter forest files/ENVIRONMENT/props-sliced/house.png" id="3_g3k1c"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_8hfk2")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 2.08165e-12)
+
+[node name="Sky" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576, 326)
+scale = Vector2(2.76923, 2.54688)
+texture = ExtResource("1_783mn")
+
+[node name="House" type="ParallaxLayer" parent="."]
+position = Vector2(1, 0)
+motion_scale = Vector2(0.4, 1)
+motion_mirroring = Vector2(1152, 2.08165e-12)
+
+[node name="House" type="Sprite2D" parent="House"]
+position = Vector2(90, 398)
+texture = ExtResource("3_g3k1c")
+metadata/_edit_lock_ = true
+
+[node name="Mountains" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(1148, 2.08165e-12)
+
+[node name="Mountains" type="Sprite2D" parent="Mountains"]
+position = Vector2(103, 519)
+scale = Vector2(1.00481, 1.75993)
+texture = ExtResource("2_n3ilh")
+metadata/_edit_lock_ = true
+
+[node name="Mountains" type="Sprite2D" parent="Mountains/Mountains"]
+position = Vector2(202.029, 0.639244)
+scale = Vector2(1.00481, 0.989092)
+texture = ExtResource("2_n3ilh")
+metadata/_edit_lock_ = true
+
+[node name="Mountains" type="Sprite2D" parent="Mountains/Mountains/Mountains"]
+position = Vector2(387.267, 0.502625)
+scale = Vector2(2.7512, 1.01923)
+texture = ExtResource("2_n3ilh")
+metadata/_edit_lock_ = true
+
+[node name="Mountains" type="Sprite2D" parent="Mountains/Mountains/Mountains/Mountains"]
+position = Vector2(133.567, -3.56444)
+scale = Vector2(0.295274, 1.05468)
+texture = ExtResource("2_n3ilh")
+metadata/_edit_lock_ = true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dhuiwtxklkv02"
+path="res://.godot/imported/Castle Theme - New Super Mario Bros DS Music Extended.mp3-cf434fcf9ab0a24f332cd2898a6ad4b3.mp3str"
+
+[deps]
+
+source_file="res://Castle Theme - New Super Mario Bros DS Music Extended.mp3"
+dest_files=["res://.godot/imported/Castle Theme - New Super Mario Bros DS Music Extended.mp3-cf434fcf9ab0a24f332cd2898a6ad4b3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

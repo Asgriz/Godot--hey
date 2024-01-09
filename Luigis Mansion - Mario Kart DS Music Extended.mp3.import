@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cme2461s314d4"
+path="res://.godot/imported/Luigis Mansion - Mario Kart DS Music Extended.mp3-366028b179285db7bfa8fc04c95b2b18.mp3str"
+
+[deps]
+
+source_file="res://Luigis Mansion - Mario Kart DS Music Extended.mp3"
+dest_files=["res://.godot/imported/Luigis Mansion - Mario Kart DS Music Extended.mp3-366028b179285db7bfa8fc04c95b2b18.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,68 @@
+[gd_scene load_steps=6 format=3 uid="uid://niqwmqds4dk3"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_t4ykv"]
+[ext_resource type="PackedScene" uid="uid://b35i71vo807yr" path="res://BG.tscn" id="2_6qfyh"]
+[ext_resource type="AudioStream" uid="uid://cdauud08iohg8" path="res://sunnyland winter forest files/ENVIRONMENT/Peach Gardens - Mario Kart DS Music Extended.mp3" id="3_mfni3"]
+[ext_resource type="Texture2D" uid="uid://dmn8gh6h4q7ig" path="res://sunnyland winter forest files/SPRITES/misc/fireball/fireball-2.png" id="4_w2si4"]
+[ext_resource type="Texture2D" uid="uid://b3p3i8estm0j" path="res://sunnyland winter forest files/SPRITES/player/idle/idle-3.png" id="5_61jyt"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_t4ykv")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 452.0
+offset_top = 201.0
+offset_right = 718.0
+offset_bottom = 347.0
+tooltip_text = "Enter Game
+
+"
+text = "Play
+"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 455.0
+offset_top = 372.0
+offset_right = 721.0
+offset_bottom = 518.0
+tooltip_text = "Leave Game
+
+"
+text = "Quit"
+
+[node name="BG" parent="." instance=ExtResource("2_6qfyh")]
+
+[node name="BGMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_mfni3")
+autoplay = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 381.0
+offset_top = 36.0
+offset_right = 836.0
+offset_bottom = 152.0
+tooltip_text = "Game made by Muhammed Sarr
+"
+theme_override_colors/default_color = Color(0.898276, 1.3262e-06, 6.13605e-07, 1)
+theme_override_font_sizes/normal_font_size = 43
+text = "Ember's Adventures"
+
+[node name="main fireball 1" type="Sprite2D" parent="."]
+position = Vector2(427, 144)
+rotation = 1.57678
+scale = Vector2(3.49087, 3.26031)
+texture = ExtResource("4_w2si4")
+
+[node name="main fireball" type="Sprite2D" parent="."]
+position = Vector2(742, 144)
+rotation = 1.57678
+scale = Vector2(3.49087, 3.26031)
+texture = ExtResource("4_w2si4")
+
+[node name="main icon" type="Sprite2D" parent="."]
+position = Vector2(590, 119)
+scale = Vector2(3.28431, 3.77222)
+texture = ExtResource("5_61jyt")
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

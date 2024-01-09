@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://di63l4vepsj4q"
+path="res://.godot/imported/Mushroom Waltz - New Super Mario Bros..mp3-36fc1bdd8d3904d7f4b9a7fe632daa35.mp3str"
+
+[deps]
+
+source_file="res://Mushroom Waltz - New Super Mario Bros..mp3"
+dest_files=["res://.godot/imported/Mushroom Waltz - New Super Mario Bros..mp3-36fc1bdd8d3904d7f4b9a7fe632daa35.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

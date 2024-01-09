@@ -1,0 +1,157 @@
+[gd_scene load_steps=28 format=3 uid="uid://b5mojj378bhy"]
+
+[ext_resource type="Script" path="res://slime.gd" id="1_u2hep"]
+[ext_resource type="Texture2D" uid="uid://77fens5flxjc" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-1.png" id="2_rtr0k"]
+[ext_resource type="Texture2D" uid="uid://b113f2cokmsms" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-2.png" id="3_m7nj4"]
+[ext_resource type="Texture2D" uid="uid://ba7ddkkahv0wq" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-3.png" id="4_8n278"]
+[ext_resource type="Texture2D" uid="uid://cbikmfjsyd8dm" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-4.png" id="5_ktexm"]
+[ext_resource type="Texture2D" uid="uid://b3w4fs87mk5eu" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-5.png" id="6_x8h5o"]
+[ext_resource type="Texture2D" uid="uid://bwhp8m808apd6" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-6.png" id="7_5q2qd"]
+[ext_resource type="Texture2D" uid="uid://chw85gp6nxify" path="res://sunnyland winter forest files/SPRITES/misc/enemy-death/enemy-death-7.png" id="8_yciu0"]
+[ext_resource type="Texture2D" uid="uid://cb4d6vbew0cdp" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle1.png" id="9_4fcir"]
+[ext_resource type="Texture2D" uid="uid://bqkpq77buwme7" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle2.png" id="10_fsop6"]
+[ext_resource type="Texture2D" uid="uid://cfqoopvmf6len" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle3.png" id="11_r2lb8"]
+[ext_resource type="Texture2D" uid="uid://4jiaeg5w1jel" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle4.png" id="12_j2asm"]
+[ext_resource type="Texture2D" uid="uid://bbtu8g35p3030" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle5.png" id="13_rubqo"]
+[ext_resource type="Texture2D" uid="uid://csvb08yt6cyqf" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle6.png" id="14_r625x"]
+[ext_resource type="Texture2D" uid="uid://bn3wvyc0w8wgx" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle7.png" id="15_fcyie"]
+[ext_resource type="Texture2D" uid="uid://s0jloywd1ggx" path="res://Enemies Pack FIles/Sprites/Slimer-Idle/slimer-idle8.png" id="16_33i8q"]
+[ext_resource type="Texture2D" uid="uid://8bo6a8bfidu6" path="res://Enemies Pack FIles/Sprites/Slimer/slimer2.png" id="17_3ceja"]
+[ext_resource type="Texture2D" uid="uid://co078ofu38vhn" path="res://Enemies Pack FIles/Sprites/Slimer/slimer3.png" id="18_jg7hj"]
+[ext_resource type="Texture2D" uid="uid://3hptj6u81fr2" path="res://Enemies Pack FIles/Sprites/Slimer/slimer4.png" id="19_hncx5"]
+[ext_resource type="Texture2D" uid="uid://b5nkg12k4j0f3" path="res://Enemies Pack FIles/Sprites/Slimer/slimer5.png" id="20_est34"]
+[ext_resource type="Texture2D" uid="uid://na50p7ldklug" path="res://Enemies Pack FIles/Sprites/Slimer/slimer6.png" id="21_h5go0"]
+[ext_resource type="Texture2D" uid="uid://c18pg1i7k3cis" path="res://Enemies Pack FIles/Sprites/Slimer/slimer7.png" id="22_ciqql"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oye57"]
+size = Vector2(20, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cv36s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_rtr0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_m7nj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8n278")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_ktexm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_x8h5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_5q2qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yciu0")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_4fcir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_fsop6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_r2lb8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_j2asm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rubqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_r625x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_fcyie")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_33i8q")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_3ceja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_jg7hj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hncx5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_est34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_h5go0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ciqql")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4lab6"]
+radius = 77.0065
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2k1jd"]
+size = Vector2(25, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w82er"]
+size = Vector2(21, 22)
+
+[node name="Slime" type="CharacterBody2D"]
+script = ExtResource("1_u2hep")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 2)
+shape = SubResource("RectangleShape2D_oye57")
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -9)
+sprite_frames = SubResource("SpriteFrames_cv36s")
+animation = &"Idle"
+metadata/_edit_lock_ = true
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+position = Vector2(0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+visible = false
+position = Vector2(0, -1)
+shape = SubResource("CircleShape2D_4lab6")
+
+[node name="PlayerCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerCollision"]
+position = Vector2(1.5, 2.5)
+shape = SubResource("RectangleShape2D_2k1jd")
+metadata/_edit_lock_ = true
+
+[node name="PlayerDeath" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDeath"]
+position = Vector2(1.5, -1)
+shape = SubResource("RectangleShape2D_w82er")
+
+[connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
+[connection signal="body_entered" from="PlayerCollision" to="." method="_on_player_collision_body_entered"]
+[connection signal="area_shape_exited" from="PlayerDeath" to="." method="_on_player_death_area_shape_exited"]
+[connection signal="body_entered" from="PlayerDeath" to="." method="_on_player_death_body_entered"]
