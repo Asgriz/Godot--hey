@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://8bee1i0g81nj"]
+[gd_scene load_steps=23 format=3 uid="uid://8bee1i0g81nj"]
 
 [ext_resource type="Script" path="res://yeti.gd" id="1_0p4mc"]
 [ext_resource type="Texture2D" uid="uid://cyeax51ho8fnq" path="res://sunnyland winter forest files/SPRITES/enemies/yeti/yeti-1.png" id="1_b0u0a"]
@@ -98,6 +98,9 @@ size = Vector2(14, 25)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tsrrv"]
 size = Vector2(24, 15)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ho8hr"]
+size = Vector2(39, 37)
+
 [node name="Yeti" type="CharacterBody2D"]
 script = ExtResource("1_0p4mc")
 
@@ -130,9 +133,16 @@ shape = SubResource("RectangleShape2D_l7nam")
 position = Vector2(0, 2)
 shape = SubResource("RectangleShape2D_tsrrv")
 
+[node name="FireballCollision" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="FireballCollision"]
+position = Vector2(1.5, -5.5)
+shape = SubResource("RectangleShape2D_ho8hr")
+
 [connection signal="area_shape_exited" from="PlayerDetection" to="." method="_on_player_detection_area_shape_exited"]
 [connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
 [connection signal="body_shape_exited" from="PlayerDetection" to="." method="_on_player_detection_body_shape_exited"]
 [connection signal="area_shape_exited" from="Player Death" to="." method="_on_player_detection_area_shape_exited"]
 [connection signal="body_entered" from="Player Death" to="." method="_on_player_death_body_entered"]
 [connection signal="body_entered" from="PlayerCollision" to="." method="_on_player_collision_body_entered"]
+[connection signal="body_entered" from="FireballCollision" to="." method="_on_fireball_collision_body_entered"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=40 format=3 uid="uid://chpolocibr6yi"]
+[gd_scene load_steps=41 format=3 uid="uid://chpolocibr6yi"]
 
 [ext_resource type="Texture2D" uid="uid://2p70efvet106" path="res://Fort of Illusion Files/Layers/tileset.png" id="1_8msx0"]
 [ext_resource type="Texture2D" uid="uid://cv152wl6yn13y" path="res://sunnyland winter forest files/SPRITES/player/crouch/crouch-1.png" id="2_mmg5u"]
@@ -25,6 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://dbjt0n4blywq" path="res://sunnyland winter forest files/SPRITES/player/run/run-6.png" id="21_dt4ve"]
 [ext_resource type="Texture2D" uid="uid://4xdtxhp1jord" path="res://sunnyland winter forest files/SPRITES/player/run/run-7.png" id="22_6yf0q"]
 [ext_resource type="Texture2D" uid="uid://ci7j8vn60mdb" path="res://sunnyland winter forest files/SPRITES/player/run/run-8.png" id="23_ws3nd"]
+[ext_resource type="PackedScene" uid="uid://crk1iibf3sbk4" path="res://fireballtest.tscn" id="26_1vrka"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_6baxv"]
 
@@ -637,3 +638,5 @@ position = Vector2(578, 321.625)
 scale = Vector2(1.4879, 1.4948)
 texture = ExtResource("5_u4h3k")
 metadata/_edit_lock_ = true
+
+[node name="Fireball" parent="." instance=ExtResource("26_1vrka")]

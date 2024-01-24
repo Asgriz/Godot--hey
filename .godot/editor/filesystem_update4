@@ -1,6 +1,11 @@
 res://main.tscn
-res://main.gd
 res://world_3.tscn
 res://Player/Player.tscn
-res://Player/Player.gd
 res://world.tscn
+res://yeti.tscn
+res://fireballtest.tscn
+res://world_2.tscn
+res://slime.tscn
+res://slime.gd
+res://yeti.gd
+res://main.gd

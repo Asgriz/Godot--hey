@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://b5mojj378bhy" path="res://slime.tscn" id="6_01vwi"]
 [ext_resource type="AudioStream" uid="uid://cme2461s314d4" path="res://Luigis Mansion - Mario Kart DS Music Extended.mp3" id="11_2ldam"]
 [ext_resource type="Script" path="res://completelvl2.gd" id="12_rxf57"]
+[ext_resource type="PackedScene" uid="uid://crk1iibf3sbk4" path="res://fireballtest.tscn" id="13_j1if7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ggah"]
 texture = ExtResource("1_kfrn1")
@@ -357,56 +358,6 @@ texture = ExtResource("3_6el3i")
 [sub_resource type="TileSet" id="TileSet_0hl6n"]
 sources/0 = SubResource("TileSetAtlasSource_8ogv2")
 
-[sub_resource type="GDScript" id="GDScript_ptulf"]
-script/source = "extends CharacterBody2D
-#player2lvl2
-var health = 10
-const SPEED = 270.0
-const JUMP_VELOCITY = -400.0
-
-# Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
-
-@onready var anim = get_node(\"AnimationPlayer\")
-
-	
-func _physics_process(delta):
-	# Add the gravity.
-	if not is_on_floor():
-		velocity.y += gravity * delta
-	# Handle Jump.
-	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
-		velocity.y = JUMP_VELOCITY	
-		anim.play(\"Jump\")
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction = Input.get_axis(\"ui_left\", \"ui_right\")
-	print(direction)
-	if direction == -1:
-		get_node(\"AnimatedSprite2D\").flip_h = true
-	elif direction == 1:
-		get_node(\"AnimatedSprite2D\").flip_h = false
-			
-		
-	if direction:
-		velocity.x = direction * SPEED
-		if velocity.y == 0:
-			anim.play(\"Run\")
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)	
-		if velocity.y == 0:
-			anim.play(\"Idle\")
-		if velocity.y > 0:
-			anim.play(\"Fall\")
-	move_and_slide() 
-
-#Had to make the player unique so it could respawn on lvl2
-	if health <= 0:
-		queue_free()
-		get_tree().change_scene_to_file(\"res://lvl_2_main.tscn\")
-	
-"
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4x6sx"]
 size = Vector2(4603.5, 125)
 
@@ -415,13 +366,14 @@ script/source = "extends Label
 #HP
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+#func _ready():
+	#pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	text = \"HP:\" + str(get_node(\"../../Player/Player\").health)
+func _process(_delta):
+	#text = \"HP:\" + str(get_child(\"Player\")).health
+		pass
 	
 	
 "
@@ -431,6 +383,12 @@ size = Vector2(40, 57.5)
 
 [node name="world 2" type="Node2D"]
 script = ExtResource("1_8fmly")
+
+[node name="Player" parent="." instance=ExtResource("3_5gxv4")]
+position = Vector2(182, 189)
+
+[node name="Fireball" parent="." instance=ExtResource("13_j1if7")]
+position = Vector2(36, -26)
 
 [node name="Flooretc" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_dwo7m")
@@ -465,12 +423,6 @@ scale = Vector2(17.9922, 2.38603)
 texture = ExtResource("2_54065")
 metadata/_edit_lock_ = true
 
-[node name="Player" type="Node" parent="."]
-
-[node name="Player" parent="Player" instance=ExtResource("3_5gxv4")]
-position = Vector2(123, 305)
-script = SubResource("GDScript_ptulf")
-
 [node name="Deathfall" type="Area2D" parent="."]
 script = ExtResource("5_spquv")
 
@@ -496,7 +448,7 @@ position = Vector2(4038, 255)
 position = Vector2(3570, 264)
 
 [node name="Slime8" parent="Mobs" instance=ExtResource("6_01vwi")]
-position = Vector2(1042, 313)
+position = Vector2(1122, 304)
 
 [node name="Slime2" parent="Mobs" instance=ExtResource("6_01vwi")]
 position = Vector2(1236, 309)
@@ -552,6 +504,7 @@ pitch_scale = 0.53
 autoplay = true
 
 [node name="completelvl2" type="Area2D" parent="."]
+position = Vector2(4210, 141)
 script = ExtResource("12_rxf57")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="completelvl2"]

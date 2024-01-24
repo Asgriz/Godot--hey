@@ -12,9 +12,10 @@ func _physics_process(delta):
 	if chase == true:
 		if get_node("AnimatedSprite2D").animation !="Death":
 			get_node("AnimatedSprite2D").play("Walk")
-		player = get_node("../../Player/Player")
+		player = get_parent().get_parent().find_child("Player")
 		
 		var direction = (player.position - self.position).normalized()
+		
 		if direction.x > 0:
 			get_node("AnimatedSprite2D").flip_h = false
 		else:
@@ -50,3 +51,11 @@ func death():
 		await get_node("AnimatedSprite2D").animation_finished
 		self.queue_free()
 #destroying a node safely at the end of the frame and also removes it from the get node
+
+
+func _on_fireball_collision_body_entered(body):
+	if body.name == "Fireball":
+		death()
+
+func hurt():
+	death()

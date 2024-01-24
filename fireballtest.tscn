@@ -1,0 +1,63 @@
+[gd_scene load_steps=5 format=3 uid="uid://crk1iibf3sbk4"]
+
+[ext_resource type="Texture2D" uid="uid://c1qy5ue6xtk" path="res://sunnyland winter forest files/SPRITES/misc/fireball/fireball-1.png" id="1_2aout"]
+
+[sub_resource type="GDScript" id="GDScript_egr1p"]
+resource_name = "Fireball.gd"
+script/source = "extends CharacterBody2D
+
+const SPEED = 800 
+var Velocity = Vector2()
+var direction = 1
+@onready var hitbox = $ShapeCast2D
+#@onready var fireballCD = $Timer
+
+
+
+
+func _ready():
+	velocity.x = SPEED * direction
+func _physics_process(_delta):
+	if is_on_wall():
+		queue_free()
+	if hitbox.is_colliding():
+		var thing_being_hit = hitbox.get_collider(0)
+		if thing_being_hit.has_method(\"hurt\"):
+			thing_being_hit.hurt()
+	move_and_slide() #velocity,Vector2.UP)
+	
+
+
+	
+
+
+	#func _on_timer_timeout():
+	#pass # Replace with function body.
+"
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ee543"]
+radius = 10.7381
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mbbxe"]
+
+[node name="Fireball" type="CharacterBody2D"]
+collision_layer = 32
+script = SubResource("GDScript_egr1p")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.4, 1.4)
+texture = ExtResource("1_2aout")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(5.96046e-08, 0)
+shape = SubResource("CircleShape2D_ee543")
+
+[node name="ShapeCast2D" type="ShapeCast2D" parent="."]
+scale = Vector2(2, 2)
+shape = SubResource("CircleShape2D_mbbxe")
+target_position = Vector2(0, 0)
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
