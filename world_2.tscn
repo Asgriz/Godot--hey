@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=3 uid="uid://brc5pghsvmmfl"]
+[gd_scene load_steps=24 format=3 uid="uid://brc5pghsvmmfl"]
 
 [ext_resource type="Script" path="res://world_2.gd" id="1_8fmly"]
 [ext_resource type="Texture2D" uid="uid://2p70efvet106" path="res://Fort of Illusion Files/Layers/tileset.png" id="1_kfrn1"]
@@ -13,6 +13,83 @@
 [ext_resource type="AudioStream" uid="uid://cme2461s314d4" path="res://Luigis Mansion - Mario Kart DS Music Extended.mp3" id="11_2ldam"]
 [ext_resource type="Script" path="res://completelvl2.gd" id="12_rxf57"]
 [ext_resource type="PackedScene" uid="uid://crk1iibf3sbk4" path="res://fireballtest.tscn" id="13_j1if7"]
+
+[sub_resource type="GDScript" id="GDScript_vvhmj"]
+script/source = "extends CharacterBody2D
+
+var health = 10
+const SPEED = 260.0
+const JUMP_VELOCITY = -400.0
+var fireballOnCD = false
+const Fireball = preload(\"res://fireballtest.tscn\")
+
+
+#const declares that the value can not be changed during activation
+# Get the gravity from the project settings to be synced with RigidBody nodes.
+var gravity = ProjectSettings.get_setting(\"physics/2d/default_gravity\")
+@onready var anim = $AnimationPlayer
+@onready var FireCD = $Timer
+
+#Delta = repeat
+	
+func _physics_process(delta):
+	# Add the gravity.
+	if not is_on_floor():
+		velocity.y += gravity * delta
+	# Handle Jump.
+	if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+		velocity.y = JUMP_VELOCITY	
+		anim.play(\"Jump\")
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+	var direction = Input.get_axis(\"ui_left\", \"ui_right\")
+	print(direction)
+	if direction == -1:
+		get_node(\"AnimatedSprite2D\").flip_h = true
+	elif direction == 1:
+		get_node(\"AnimatedSprite2D\").flip_h = false
+			
+		
+	if direction:
+		velocity.x = direction * SPEED
+		if velocity.y == 0:
+			anim.play(\"Run\")
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)	
+		if velocity.y == 0:
+			anim.play(\"Idle\")
+		if velocity.y > 0:
+			anim.play(\"Fall\")
+	move_and_slide()
+	fire()
+
+func fire():
+	if fireballOnCD == false:
+		if Input.is_action_just_pressed(\"attack\"):
+			FireCD.start()
+			var direction = 1 if not $AnimatedSprite2D.flip_h else -1 
+			var f = Fireball.instantiate()
+			f.direction = direction
+			get_parent().add_child(f)
+			f.position.y = position.y
+			f.position.x = position.x + 25 * direction
+			fireballOnCD = true
+
+	if health <= 0:
+		queue_free()
+		get_tree().change_scene_to_file(\"res://lvl_2_main.tscn\")
+	
+
+
+	
+
+
+
+func _on_timer_timeout():
+	fireballOnCD = false
+"
+
+[sub_resource type="GDScript" id="GDScript_7oiy4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ggah"]
 texture = ExtResource("1_kfrn1")
@@ -361,23 +438,6 @@ sources/0 = SubResource("TileSetAtlasSource_8ogv2")
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4x6sx"]
 size = Vector2(4603.5, 125)
 
-[sub_resource type="GDScript" id="GDScript_yj08a"]
-script/source = "extends Label
-#HP
-
-# Called when the node enters the scene tree for the first time.
-#func _ready():
-	#pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta):
-	#text = \"HP:\" + str(get_child(\"Player\")).health
-		pass
-	
-	
-"
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3y62q"]
 size = Vector2(40, 57.5)
 
@@ -386,9 +446,22 @@ script = ExtResource("1_8fmly")
 
 [node name="Player" parent="." instance=ExtResource("3_5gxv4")]
 position = Vector2(182, 189)
+script = SubResource("GDScript_vvhmj")
 
 [node name="Fireball" parent="." instance=ExtResource("13_j1if7")]
 position = Vector2(36, -26)
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="HP" type="Label" parent="UI"]
+offset_left = 13.0
+offset_top = 1.0
+offset_right = 53.0
+offset_bottom = 38.0
+theme_override_colors/font_color = Color(0.764706, 0, 0, 1)
+theme_override_font_sizes/font_size = 24
+text = "HP:"
+script = SubResource("GDScript_7oiy4")
 
 [node name="Flooretc" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_dwo7m")
@@ -485,18 +558,6 @@ position = Vector2(1550, 234)
 
 [node name="Yeti2" parent="Mobs" instance=ExtResource("5_ysjga")]
 position = Vector2(485, 318)
-
-[node name="UI" type="CanvasLayer" parent="."]
-
-[node name="HP" type="Label" parent="UI"]
-offset_left = 13.0
-offset_top = 1.0
-offset_right = 53.0
-offset_bottom = 38.0
-theme_override_colors/font_color = Color(0.764706, 0, 0, 1)
-theme_override_font_sizes/font_size = 24
-text = "HP:"
-script = SubResource("GDScript_yj08a")
 
 [node name="World2music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("11_2ldam")

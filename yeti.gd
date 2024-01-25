@@ -15,11 +15,11 @@ func _physics_process(delta):
 		player = get_parent().get_parent().find_child("Player")
 		
 		var direction = (player.position - self.position).normalized()
-		
 		if direction.x > 0:
-			get_node("AnimatedSprite2D").flip_h = false
+			
+			get_node("AnimatedSprite2D").flip_h = false #+1f
 		else:
-			get_node("AnimatedSprite2D").flip_h = true
+			get_node("AnimatedSprite2D").flip_h = true  #-t
 		velocity.x = direction.x * SPEED
 	else:
 		if get_node("AnimatedSprite2D").animation !="Death":
@@ -28,15 +28,12 @@ func _physics_process(delta):
 	move_and_slide()
 	
 func _on_player_detection_body_entered(body):
-		if body.name == "Player":
-			chase = true
- 
-
+	if body.name == "Player":
+		chase = true
 
 func _on_player_detection_body_shape_exited(body):
 	if body.name == "Player":
 			chase = false
-
 
 func _on_player_death_body_entered(body):
 	if body.name == "Player":

@@ -6,6 +6,8 @@ res://yeti.tscn
 res://fireballtest.tscn
 res://world_2.tscn
 res://slime.tscn
-res://slime.gd
-res://yeti.gd
+res://deathfall2.gd
+res://lvl2main.gd
 res://main.gd
+res://yeti.gd
+res://slime.gd

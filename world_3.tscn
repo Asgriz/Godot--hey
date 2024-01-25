@@ -601,6 +601,9 @@ layer_0/tile_data = PackedInt32Array(1835018, 0, 1, 1900554, 0, 2, 1966090, 0, 3
 position = Vector2(357, 435)
 script = SubResource("GDScript_8guke")
 
+[node name="Fireball" parent="Player" instance=ExtResource("26_1vrka")]
+position = Vector2(-357, -435)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource("CapsuleShape2D_ia4xi")
 metadata/_edit_lock_ = true
@@ -638,5 +641,3 @@ position = Vector2(578, 321.625)
 scale = Vector2(1.4879, 1.4948)
 texture = ExtResource("5_u4h3k")
 metadata/_edit_lock_ = true
-
-[node name="Fireball" parent="." instance=ExtResource("26_1vrka")]
